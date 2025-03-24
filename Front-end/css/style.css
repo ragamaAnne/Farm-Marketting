@@ -1,0 +1,93 @@
+nav ul ,li{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav{
+    display:flex;
+}
+
+nav a:link{
+   text-decoration: none;
+}
+
+nav ul{
+   margin-left: 725px;
+   margin-top: 0px;
+   padding: 0px;
+}
+
+.home{
+    margin-left:20px;
+}
+
+nav span a{
+    margin-left: 100px;
+    font-size: 25px;
+    color: greenyellow;
+}
+ nav span a:link{
+    text-decoration: none;
+  
+ }
+
+.info{
+    background-image: url(../images/peanut.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.info,p{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+
+.info button{
+    border-radius: 15px;
+    width: 100px;
+    height: 40px;
+}
+
+.more-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    background: rgb(206, 228, 206);
+    padding: 20px;
+    border-radius: 10px;
+}
+.more-info p{
+    font-size: 20px;
+}
+.circle1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circle2{
+    position: absolute;
+    bottom: -580px;
+    left: 780px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
